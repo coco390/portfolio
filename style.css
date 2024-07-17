@@ -155,6 +155,7 @@ h1 {
     font-size: 2rem;
     font-weight: 700;
     text-transform: lowercase;
+    margin-bottom: 1rem;
 }
 
 .card p {
@@ -186,6 +187,7 @@ h1 {
     text-align: center;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-bottom: 1rem;
 }
 
 .social-button:hover {
@@ -193,4 +195,3 @@ h1 {
     color: #E6C8C8;
 }
 
-/*Workit Card Styling*/
