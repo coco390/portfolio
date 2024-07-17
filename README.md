@@ -19,10 +19,6 @@ This project is a portfolio landing page created from scratch using HTML and CSS
 
 Contributions are welcome! Feel free to fork the repository and submit pull requests to suggest improvements or new features.
 
-## License
-
-This project is licensed under the MIT License - see the `LICENSE` file for details.
-
 ## Acknowledgments
 
 - Design inspiration and initial concepts from the Figma design file.
