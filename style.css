@@ -217,3 +217,20 @@ h1 {
     justify-content: center;
     gap: 2rem;
   }
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+
+    .section-image{
+        display: none;
+    }
+
+    .card {
+      flex-direction: column;
+    }
+
+    .image-container {
+      order: -1;
+      margin-bottom: 10px;
+    }
+  }
