@@ -15,17 +15,19 @@
    }
 
 
-/*Body Styles*/
-body {
+/*Entire Content Styling*/
+.wrapper {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    margin: 0;
+    margin: 0 auto;
     padding-bottom: 2rem;
+    max-width: 1200px;
 }
 
 /*Header Styling*/
 .container-header {
+    max-width: 1200px;
     width: 100%;
     background-color: rgba(183, 76, 76, 0.42);
     display: flex;
@@ -113,8 +115,8 @@ h1 {
     filter: grayscale(100%);
 }
 
-/*Projects Styling*/
-.littlelemon-card {
+/*General Card Styling*/
+.card  {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,30 +127,29 @@ h1 {
     padding: 1rem;
 }
 
-.littlelemon-card .image-container {
+/*Styling for both cards' image container*/
+.card .image-container {
     width: 551px;
     height: 505px;
     border: 2rem solid rgba(183, 76, 76, 0.35);
     margin-right: 20px;
 }
 
-.littlelemon-card .image-container img {
+.card .image-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
 }
 
-.littlelemon-card .card-content {
+/*General Card Content Styling*/
+.card .card-content {
     flex: 1;
     padding: 0 1rem;
-}
-
-.card-content {
     text-align: center;
 }
 
-.littlelemon-card h3 {
+.card h3 {
     margin-top: 0;
     font-family: "Poppins", serif;
     font-size: 2rem;
@@ -156,7 +157,7 @@ h1 {
     text-transform: lowercase;
 }
 
-.littlelemon-card p {
+.card p {
     margin-bottom: 0;
     font-family: "Poppins", serif;
     font-size: 1rem;
@@ -191,3 +192,5 @@ h1 {
     background-color: gray;
     color: #E6C8C8;
 }
+
+/*Workit Card Styling*/
