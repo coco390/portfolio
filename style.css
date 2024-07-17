@@ -95,7 +95,7 @@ h1 {
     margin-bottom: 2rem;
 }
 
-#section-chat {
+#section-connect {
     border: none;
     border-radius: 9px;
     padding: 1rem;
@@ -162,6 +162,32 @@ h1 {
     font-size: 1rem;
 }
 
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
 .social-button {
-    
+    display: inline-block;
+    background-color: #E6C8C8;
+    border: #E6C8C8;
+    width: 203px;
+    height: auto;
+    padding: 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+    color: gray;
+    letter-spacing: 0.25rem;
+    font-family: "Poppins", serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.social-button:hover {
+    background-color: gray;
+    color: #E6C8C8;
 }
