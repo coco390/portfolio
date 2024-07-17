@@ -177,7 +177,7 @@ h1 {
     height: auto;
     padding: 1rem;
     margin-right: 1rem;
-    border-radius: 10px;
+    border-radius: 1rem;
     color: gray;
     letter-spacing: 0.25rem;
     font-family: "Poppins", serif;
@@ -195,3 +195,25 @@ h1 {
     color: #E6C8C8;
 }
 
+/*Footer Styling*/
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(183, 76, 76, 0.35);
+    padding-bottom: 2rem;
+}
+
+.footer h3 {
+    font-family: "Poppins", serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0.25rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
