@@ -19,8 +19,6 @@
 .wrapper {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    padding-bottom: 2rem;
     width: 100%;
 }
 
@@ -29,6 +27,7 @@ header{
     background-color: #E6C8C8;
     position: sticky;
     top: 0;
+    z-index: 1000;
 }
 .container-header {
     width: 100%;
@@ -78,6 +77,7 @@ section {
     max-width: 61.625rem;
     min-height: 6.25rem;
     width: 90%;
+    margin-bottom: 2rem;
 }
 
 .section-image {
@@ -144,6 +144,7 @@ section {
     max-width: 61.625rem;
     min-height: 6.25rem;
     width: 90%;
+    margin-bottom: 2rem;
 }
 
 /*Styling for both cards' image container*/
@@ -215,13 +216,16 @@ section {
 }
 
 /*Footer Styling*/
-.footer{
+.footer {
+    background-color: rgba(183, 76, 76, 0.35);
+}
+
+.footer-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(183, 76, 76, 0.35);
     padding-bottom: 2rem;
-    width: 100%;
+    margin-top: 1rem;
 }
 
 .footer h3 {
