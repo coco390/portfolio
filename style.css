@@ -14,20 +14,22 @@
     color: gray;
    }
 
+   html, body {
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
 
 /*Entire Content Styling*/
 .wrapper {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    margin: 0 auto;
     padding-bottom: 2rem;
-    max-width: 1200px;
+    width: 100%;
 }
 
 /*Header Styling*/
 .container-header {
-    max-width: 1200px;
     width: 100%;
     background-color: rgba(183, 76, 76, 0.42);
     display: flex;
@@ -58,13 +60,13 @@ h1 {
 
 /*Section Styling*/
 .container-section {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    align-items: start;
+    display: flex;
+    align-items: center;
     gap: 2rem;
     padding: 7rem;
     margin-top: 6.75rem;
     background-color: rgba(176, 85, 85, 0.63);
+    width: 100%;
 }
 
 .section-image {
@@ -76,11 +78,17 @@ h1 {
 .section-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     color: white;
+    width: 100%;
 }
+
+.section-content h2,
+.section-content p,
+.section-content a {
+    margin: 10px 0;
+    text-align: center;
+}
+
 
 .section-content h2 {
     font-family: "Poppins", serif;
@@ -118,6 +126,7 @@ h1 {
 /*General Card Styling*/
 .card  {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -129,8 +138,8 @@ h1 {
 
 /*Styling for both cards' image container*/
 .card .image-container {
-    width: 551px;
-    height: 505px;
+    width: 400px;
+    height: 405px;
     border: 2rem solid rgba(183, 76, 76, 0.35);
     margin-right: 20px;
 }
@@ -202,6 +211,7 @@ h1 {
     align-items: center;
     background-color: rgba(183, 76, 76, 0.35);
     padding-bottom: 2rem;
+    width: 100%;
 }
 
 .footer h3 {
@@ -220,6 +230,14 @@ h1 {
 
 /* Media Query for Mobile */
 @media (max-width: 768px) {
+    .container-section {
+        flex-direction: column;
+        padding: 4rem 2rem;
+    }
+
+    .section-content {
+        width: 100%;
+    }
 
     .section-image{
         display: none;
@@ -232,5 +250,14 @@ h1 {
     .image-container {
       order: -1;
       margin-bottom: 10px;
+    }
+
+    .card .image-container {
+        margin-right: 0;
+    }
+
+    .card-content {
+        padding: 0 1rem;
+        width: 100%;
     }
   }
