@@ -30,7 +30,6 @@ header{
     z-index: 1000;
 }
 .container-header {
-    width: 100%;
     background-color: #E6C8C8;
     display: flex;
     justify-content: space-between;
@@ -284,6 +283,8 @@ section {
 
     .container-header {
        margin: 0;
+       padding: 1rem;
+       width: 100%;
     }
 
     .container-section {
