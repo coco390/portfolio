@@ -126,7 +126,6 @@ h1 {
 /*General Card Styling*/
 .card  {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
