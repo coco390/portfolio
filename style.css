@@ -31,7 +31,7 @@
 /*Header Styling*/
 .container-header {
     width: 100%;
-    background-color: rgba(183, 76, 76, 0.42);
+    background-color: #E6C8C8;
     display: flex;
     justify-content: space-between;
     align-items: center;
