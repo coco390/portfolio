@@ -260,3 +260,10 @@ h1 {
         width: 100%;
     }
   }
+
+@media (max-width: 390px) {
+    h1 {
+        font-size: 1.25rem;
+        padding: 0.7rem;
+    }
+}
