@@ -282,6 +282,10 @@ section {
         padding: 0.7rem;
     }
 
+    .container-header {
+       margin: 0;
+    }
+
     .container-section {
         margin-top: auto;
     }
