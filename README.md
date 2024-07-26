@@ -15,10 +15,6 @@ This project is a portfolio landing page created from scratch using HTML and CSS
 - HTML
 - CSS
 
-## Contributing
-
-Contributions are welcome! Feel free to fork the repository and submit pull requests to suggest improvements or new features.
-
 ## Acknowledgments
 
 - Design inspiration and initial concepts from the Figma design file.
